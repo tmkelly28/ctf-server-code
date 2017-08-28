@@ -1,0 +1,20 @@
+{
+  "name": "secret code page",
+  "version": "1.0.0",
+  "description": "No one will ever guess the secret code!",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "morgan": "^1.8.1",
+    "nunjucks": "^3.0.1"
+  }
+}
